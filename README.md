@@ -13,8 +13,10 @@ Ruby shell script (ruby program.rb) that:
 
 * Android Phone app built using Xamarin and C#
   * If no software to run, screencast or Skype demo is available
+* Not 100% complete and a bit rough around edges
 * Partial security - frontend, simulated backend
 * Allows taking a picture w/camera, uploading to cloud
 * Currently fetches pictures/docs from cloud and displays count
   * Doesn't yet display docs back to user
-** Pictures are stored in Azure blob storage
+* Pictures are stored in Azure blob storage
+* First Android app and Xamarin development
