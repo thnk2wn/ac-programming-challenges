@@ -88,7 +88,7 @@ class TweetParser
   end
 
   def strip_tweet_retweet_mentions_urls(tweet_object)
-    text_parsed = remove_retweet(tweet_object.text.dup)
+    text_parsed = TweetParser::remove_retweet(tweet_object.text.dup)
 
     if (tweet_object.user_mentions.length > 0)
       tweet_object.user_mentions.each do |mention|

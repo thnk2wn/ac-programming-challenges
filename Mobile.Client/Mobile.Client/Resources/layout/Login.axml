@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <ImageView
+        android:src="@drawable/avant_logo_light"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/headerLogo" />
+    <GridLayout
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/gridLayout1"
+        android:rowCount="4"
+        android:columnCount="1" />
+    <TextView
+        android:text="Customer Id"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView3" />
+    <EditText
+        android:inputType="textEmailAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/customerId"
+        android:hint="email@domain.com" />
+    <TextView
+        android:text="Password"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2" />
+    <EditText
+        android:inputType="textPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/password" />
+    <CheckBox
+        android:text="Remember Me"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rememberMeCheckBox" />
+    <ImageButton
+        android:src="@drawable/avant_signin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/signInButton" />
+    <ImageButton
+        android:src="@drawable/avant_forgot_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/forgotPasswordButton" />
+</LinearLayout>
