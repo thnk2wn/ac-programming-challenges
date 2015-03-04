@@ -12,9 +12,9 @@ Ruby shell script (ruby program.rb) that:
 ## Mobile.Client
 
 * Android Phone app built using Xamarin and C#
-  ** If no software to run, screencast or Skype demo is available
+  * If no software to run, screencast or Skype demo is available
 * Partial security - frontend, simulated backend
 * Allows taking a picture w/camera, uploading to cloud
 * Currently fetches pictures/docs from cloud and displays count
-  ** Doesn't yet display docs back to user
+  * Doesn't yet display docs back to user
 ** Pictures are stored in Azure blob storage
